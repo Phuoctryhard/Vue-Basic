@@ -13,7 +13,9 @@
 // })
 
 import App from '@/App.vue'
+import Callback from '@/components/Callback.vue'
 import JobListing from '@/components/JobListing.vue'
+import Login from '@/components/Login.vue'
 import AddJobView from '@/view/AddJobView.vue'
 import EditJobView from '@/view/EditJobView.vue'
 import HomeView from '@/view/HomeView.vue'
@@ -25,6 +27,12 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 
 const routes = [
+  {
+    path:'/callback',component:Callback
+  },
+    {
+    path:'/Login',component:Login
+  },
   {
     path:'/jobs/:id',component:JobView
   },

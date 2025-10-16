@@ -7,6 +7,7 @@ import JobListing from './components/JobListing.vue';
 import JobListings from './components/JobListings.vue';
 import Toast from 'vue-toastification';
 import 'vue-toastification/dist/index.css'
+import File from './components/file.vue';
 // neu ko co set up
 
 // export default {
@@ -16,6 +17,8 @@ import 'vue-toastification/dist/index.css'
 
 <template>
   <div>
+
+    <File />
     <Navbar/>
     <RouterView/>
   </div>
